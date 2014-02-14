@@ -1,0 +1,188 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+
+
+
+
+
+
+
+
+body {
+  text-align: center;
+  color: #444;
+  background: #fff;
+  font: 300 12pt/16pt "museo-slab-1","museo-slab-2", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+h1 {
+  font-size: 40pt;
+  line-height: 60pt;
+  font-weight: 700;
+  margin: 50px 0 100px;
+  color: #1399ED;
+}
+
+a, a:visited {
+  color: #1399ED;
+  text-decoration: none;
+}
+
+a:active, a:hover {
+  text-decoration: underline;
+}
+
+.date span, .location span {
+  color: #f03;
+}
+
+.changed {
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 18pt;
+  line-height: 24pt;
+}
+
+.date {
+  font-size: 28pt;
+  line-height: 36pt;
+}
+.location {
+  font-size: 18pt;
+  line-height: 24pt;
+  margin: 15px 0 20px;
+}
+
+#all-trigger {
+  display: inline-block;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  font-weight: bold;
+  padding: 3px 6px;
+  background: #1399ED;
+  color: #fff;
+}
+
+#all-trigger:active, #all-trigger:hover {
+  text-decoration: none;
+}
+#note {
+  font-size: 16pt;
+  line-height: 18pt;
+  margin: 25px auto;
+}
+
+.buttons {
+  margin-top: 100px;
+}
+
+.wrap {
+  width: 650px;
+  margin: 0 auto;
+}
+
+footer, footer a, footer a:visited {
+  font-size: 9pt;
+  line-height: 12pt;
+  color: #999;
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+}
+footer a:hover, footer a:active {
+  text-decoration: none;
+}
